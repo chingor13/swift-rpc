@@ -24,7 +24,7 @@ let package = Package(
     .library(name: "GoogleRpc", targets: ["GoogleRpc"])
   ],
   dependencies: [
-    .package(path: "../../packages/wkt")
+    .package(url: "https://github.com/chingor13/swift-wkt", from: "0.1.0")
   ],
   targets: [
     .target(
